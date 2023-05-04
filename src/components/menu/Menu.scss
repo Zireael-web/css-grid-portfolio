@@ -1,0 +1,71 @@
+@import '../../style/base/variables';
+
+.menu {
+    visibility: hidden;
+    height: 100vh;
+    width: 345px;
+    background: $main-color;
+    position: fixed;
+    left: -345px;
+    top: 0;
+    z-index: 3;
+    transition: 0.4s all;
+    &.active {
+        visibility: visible;
+        left: 0;
+    }
+    &__close {
+        cursor: pointer;
+        position: absolute;
+        top: 29px;
+        right: 29px;
+        transition: 0.4s transform;
+        &:hover {
+            transform: rotate(90deg);
+        }
+    }
+    nav {
+        margin-left: 40px;
+        margin-top: 140px;
+    }
+    &__item {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 11px;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            border: 1px solid #000000;
+            transition: all 0.1s;
+        }
+        &:hover {
+            &:before {
+                background-color: #fff;
+            }
+        }
+        a {
+            transition: 0.1s all;
+            color: #FFFFFF;
+            &:hover {
+                color: black;
+            }
+        }
+    }
+    &__socials {
+        position: absolute;
+        bottom: 50px;
+        left: 44%;
+        transform: translateX(-50%);
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}   
