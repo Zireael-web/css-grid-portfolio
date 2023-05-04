@@ -1,26 +1,18 @@
 // FONTS
 
 @font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url(../fonts/Poppins-Medium.ttf);
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
-}
-
-// VARIABLES
-
-@import './base/variables';
-
-// MIXINS
-    
-@import './base/mixins';
+}   
 
 // COMMON STYLES
 
@@ -33,9 +25,12 @@
 @import './base/animations';
 
 // NORMALIZATION
+body,
+html {
+    font-family: Poppins;
+}
 
 * {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     border: none;
@@ -120,4 +115,11 @@ legend {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
 }

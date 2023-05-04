@@ -6,6 +6,7 @@ import Overlay from '../overlay/Overlay';
 import Menu from '../menu/Menu';
 
 import Promo from "../promo/Promo";
+import About from '../about/About';
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Menu active={menuActive} setActive={setMenuActive}/>
 
             <Promo/>
+            <About/>
         </>
     );
 }
