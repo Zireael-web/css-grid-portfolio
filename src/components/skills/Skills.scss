@@ -1,0 +1,48 @@
+@import '../../style/base/mixins';
+
+.skills {
+    margin-top: 120px;
+    position: relative;
+    &__title {
+        text-align: center;
+        position: relative;
+        @include before_circle;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+        }
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__wrapper {
+        padding: 0 10px;
+        margin-top: 60px;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-auto-rows: 270px;
+        gap: 13px;
+    }
+    &__item {
+        padding: 30px 30px 25px 30px;
+        border: 1px solid #000;
+    }
+    &__img {
+        height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    &__skill {
+        text-align: left;
+        margin-top: 20px;
+    }
+    &__descr {
+        text-align-last: left;
+        max-width: 270px;
+        margin-top: 15px;
+
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
