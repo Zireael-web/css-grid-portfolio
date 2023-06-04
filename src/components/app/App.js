@@ -7,7 +7,7 @@ import Menu from '../menu/Menu';
 
 import Promo from "../promo/Promo";
 import About from '../about/About';
-
+import Resume from '../resume/Resume';
 
 
 import './App.scss'
@@ -24,6 +24,7 @@ function App() {
 
             <Promo/>
             <About/>
+            <Resume/>
         </>
     );
 }
