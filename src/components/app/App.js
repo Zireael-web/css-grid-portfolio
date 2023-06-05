@@ -10,6 +10,9 @@ import About from '../about/About';
 import Resume from '../resume/Resume';
 import Skills from '../skills/Skills';
 import Progress from '../progress/Progress';
+import Portfolio from '../portfolio/Portfolio';
+import Price from '../price/Price';
+import Contacts from '../contacts/Contacts';
 
 
 import './App.scss'
@@ -29,6 +32,9 @@ function App() {
             <Resume/>
             <Skills/>
             <Progress/>
+            <Portfolio/>
+            <Price/>
+            <Contacts/>
         </>
     );
 }

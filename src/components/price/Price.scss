@@ -1,0 +1,44 @@
+@import '../../style/base/mixins';
+
+.price {
+    margin-top: 60px;
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, auto));
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 15px;
+        min-width: 370px;
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(2, auto);
+    }
+    &__position {
+        position: relative;
+        @include before_circle;
+        &:before {
+            width: 15px;
+            height: 15px;
+            top: 3px;
+            transform: translateX(calc(-100% + (-10px)));
+        }
+    }
+    &__price {
+        justify-self: end;
+    }
+    &__description {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -36,7 +36,7 @@ function About() {
                             <img src={mobile_dev} alt='mobile development'/>
                         </div>
                         <div>
-                            <div className='title title_14'>Web development</div>
+                            <div className='title title_14'>App development</div>
                             <div className='about__skills-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </div>
@@ -47,7 +47,7 @@ function About() {
                             <img src={design} alt='design'/>
                         </div>
                         <div>
-                            <div className='title title_14'>Web development</div>
+                            <div className='title title_14'>Design and creativity</div>
                             <div className='about__skills-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </div>
