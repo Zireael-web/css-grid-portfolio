@@ -49,8 +49,12 @@ function Contacts() {
                             <textarea placeholder="Describe your projest" name="text" id="text"></textarea>
                             <label for="text">Your message</label>
                         </div>
-                        <div className="btn_wrapper">
+                        <div className="contacts__triggers">
                             <button className="btn contacts__btn">Send application</button>
+                            <div className='contacts__policy'>
+                                <input required type='checkbox'/>
+                                <span>I agree with <a href="#" >The Privacy Policy</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
