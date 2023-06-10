@@ -1,0 +1,60 @@
+@media (max-width: 1350px) {
+    .sidepanel {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {
+    .title {
+        &_48 {
+            font-size: 33px;
+        }
+    }
+    .promo {
+        &__title {
+            line-height: 39px;
+            width: 380px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .title {
+        &_48 {
+            font-size: 26px;
+        }
+    }
+    .menu {
+        width: 270px;
+        nav {
+            margin-top: 22vh;
+        }
+        &__close {
+            top: 25px;
+            right: 25px;
+        }
+        &__item {
+            margin-top: 15px;
+        }
+        &__socials {
+            bottom: 8vh;
+        }
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .promo {
+        background-position: 57%;
+        &__title {
+            width: 300px;
+        }
+        &__btns {
+            margin-top: 32px;
+        }
+    }
+}

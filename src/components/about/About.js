@@ -1,4 +1,5 @@
 import './About.scss'
+import './About-media.scss'
 
 import photo from '../../img/main_photo.jpg'
 import web_dev from '../../icons/about_me/web_development.svg'

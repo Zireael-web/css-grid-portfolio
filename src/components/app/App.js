@@ -14,9 +14,6 @@ import Portfolio from '../portfolio/Portfolio';
 import Price from '../price/Price';
 import Contacts from '../contacts/Contacts';
 
-
-import './App.scss'
-
 function App() {
     const [menuActive, setMenuActive] = useState(false)
 
@@ -29,12 +26,12 @@ function App() {
 
             <Promo/>
             <About/>
-            <Resume/>
+            {/* <Resume/>
             <Skills/>
             <Progress/>
             <Portfolio/>
             <Price/>
-            <Contacts/>
+            <Contacts/> */}
         </>
     );
 }

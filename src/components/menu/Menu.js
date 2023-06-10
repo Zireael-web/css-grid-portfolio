@@ -26,7 +26,7 @@ function Menu({active, setActive}) {
                 onClick={() => setActive(false)}
                 className='menu__item'
                 >
-                    <a href='#'>MY WORK EXPERIENCE</a>
+                    <a href='#'>MY EXPERIENCE</a>
                 </li>
                 <li 
                 onClick={() => setActive(false)}

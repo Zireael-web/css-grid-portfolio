@@ -9,7 +9,7 @@
     left: -345px;
     top: 0;
     z-index: 3;
-    transition: 0.4s all;
+    transition: 0.4s left, 0.4s visibility;
     &.active {
         visibility: visible;
         left: 0;
@@ -61,7 +61,7 @@
     &__socials {
         position: absolute;
         bottom: 50px;
-        left: 44%;
+        left: 50%;
         transform: translateX(-50%);
         width: 90px;
         display: flex;
