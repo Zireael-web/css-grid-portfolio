@@ -3,8 +3,6 @@
 .about {
     padding-top: 120px;
     &__wrapper {
-        width: 1040px;
-        margin: 0 auto;
         display: grid;
         grid-template: minmax(245px, auto) minmax(255px, auto) / 400px 570px;
         grid-auto-rows: minmax(245px, auto);

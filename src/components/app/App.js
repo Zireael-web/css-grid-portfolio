@@ -26,8 +26,8 @@ function App() {
 
             <Promo/>
             <About/>
-            {/* <Resume/>
-            <Skills/>
+            <Resume/>
+         {/*    <Skills/>
             <Progress/>
             <Portfolio/>
             <Price/>
@@ -37,3 +37,5 @@ function App() {
 }
 
 export default App;
+
+
