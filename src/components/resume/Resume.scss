@@ -17,9 +17,7 @@
         text-align: center;
     }
     &__wrapper {
-        width: 1115px;
-        padding: 60px 65px 0 65px;
-        margin: 0 auto;
+        padding: 60px 80px 0 80px;
         display: grid;
         grid-template: minmax(0, auto) / repeat(2, 425px);
         column-gap: 135px;

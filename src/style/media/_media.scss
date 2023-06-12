@@ -19,6 +19,12 @@
             }
         }
     }
+    .resume {     
+        &__wrapper {
+            column-gap: 50px;
+            padding: 60px 30px 0 30px;
+        }   
+    }
 }
 @media (max-width: 992px) {
     .title {
@@ -34,12 +40,15 @@
         &__skills {
             grid-template-columns: 360px;
             grid-auto-rows: minmax(115px, auto);
-            &-item {
-                grid-template-columns: 40px 320px;
-                column-gap: 20px;
-            }
         }
     }
+    .resume {
+            &__wrapper {
+                padding: 60px 10px 0 10px;
+                column-gap: 60px;
+                grid-template-columns: repeat(2,320px);
+            }
+        }
 }
 @media (max-width: 768px) {
     .title {
@@ -66,6 +75,22 @@
             &-item {
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
+            }
+        }
+    }
+    .resume {
+        margin-top: 40px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+            padding: 40px 0 0 0;
+        }
+        .divider {
+            margin-top: 15px;
+        }
+        &__item {
+            &-body {
+                max-width: 420px;
             }
         }
     }
@@ -117,5 +142,11 @@
                 grid-template-columns: 40px 68%;
             }
         }
+    }
+    .resume {
+        &__subtitle {
+            font-size: 23px;
+        }
+        
     }
 }

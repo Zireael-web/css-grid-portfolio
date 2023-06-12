@@ -27,7 +27,7 @@ function App() {
             <Promo/>
             <About/>
             <Resume/>
-         {/*    <Skills/>
+         {/*    <Skills/> 
             <Progress/>
             <Portfolio/>
             <Price/>
